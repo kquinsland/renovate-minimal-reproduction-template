@@ -1,1 +1,10 @@
-{}
+// Note: renovate supports comments in JSON files
+// Please configure your IDE to allow comments in JSON files
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:recommended"
+    ],
+    "configMigration": true,
+    "dependencyDashboard": true
+}
